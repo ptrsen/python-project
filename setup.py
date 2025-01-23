@@ -6,14 +6,14 @@ def read_requirements():
         return f.read().splitlines()
 
 setup(
-    name="simple_project",
+    name="python_project",
     version="0.1",
     packages=find_packages(),
     install_requires=read_requirements(),
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "greet=src.main:greet",
+            "greet=src.main:cli",
         ],
     },
 )

@@ -1,5 +1,5 @@
 # python-project
-simple template 
+simple template using vscode devcontainer
 
 ### Install the project in editable mode along with its dependencies
 ```bash
@@ -7,12 +7,17 @@ cd python-project
 pip install -e .
 ```
 
-### Run Tests
+### Run all tests
 ```bash
-pytest test
+pytest tests
 ```
 
-### Use the Command-Line Tool, after installation it can be invoke directly (setup.py - entry_points)
+### Run script directly using Python3
+```bash 
+python3 src/main.py "YourName"
+```
+
+### Use the Command-Line Tool, after installation it can be invoke directly (entry_points in setup.py)
 ```bash
-greet "YourName"
+greet [-h] "YourName"
 ```
