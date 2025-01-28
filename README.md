@@ -1,5 +1,5 @@
 # python-project
-simple vscode python project using a devcontainer 
+simple python project using a devcontainer (vscode) 
 
 ### Pre-req: vscode with Dev containers extension
 ### 1 - Clone and open in vscode
