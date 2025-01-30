@@ -7,7 +7,6 @@ Simple project template to work with python using a devcontainer
 
 #### 3 - Open a terminal in vscode and install the project in editable mode along with its dependencies
 ```bash
-cd python-project
 pip install -e .
 ```
 
