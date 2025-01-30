@@ -21,7 +21,7 @@ pytest tests
 python3 src/main.py "YourName"
 ```
 
-### 4 - Use the Command-Line Tool, after installation it can be invoke directly (see entry_points in setup.py)
+### 4 - Use the command-line tool, after installation it can be invoke directly (see entry_points in setup.py)
 ```bash
 greet [-h] "YourName"
 ```
