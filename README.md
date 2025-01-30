@@ -1,5 +1,5 @@
 # python-project
-simple project template to work with python using a devcontainer
+Simple project template to work with python using a devcontainer
 
 ### Pre-req: vscode with Dev containers extension
 #### 1 - Clone and open in vscode
